@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "670053892733",
+    "firebase_url": "https://androidchatapp-37d05.firebaseio.com",
+    "project_id": "androidchatapp-37d05",
+    "storage_bucket": "androidchatapp-37d05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670053892733:android:af1c16919cf1d527",
+        "android_client_info": {
+          "package_name": "com.example.campmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670053892733-kmu8pspirsep26go15jk9go2gfmrqmbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.campmanager",
+            "certificate_hash": "e8210081f4a1b94acbf749c6c083dddbeabc8c00"
+          }
+        },
+        {
+          "client_id": "670053892733-can065692nrbc557n4tso0agt5qepsb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa30vK2S7-JxO9dlMFDg8_1Bk_Ph6FQA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670053892733-can065692nrbc557n4tso0agt5qepsb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

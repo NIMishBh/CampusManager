@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.campmanager.EditFinalActivity"
+    android:background="@drawable/ab2">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:text="Increase attendance"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="@color/maroon5"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_marginLeft="-37dp"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Days"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="257dp"
+        android:text="Decrease attendance"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="@color/maroon5"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="43dp"
+
+        android:layout_marginBottom="35dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Enter no of by which attendance is to be increased :"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+</RelativeLayout>

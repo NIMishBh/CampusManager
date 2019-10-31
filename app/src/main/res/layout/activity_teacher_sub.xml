@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeacherSubActivity"
+    android:background="@drawable/ab2">
+
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Select Subjects"
+        android:textColor="#ffffff"
+        android:textSize="28dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAA"
+        tools:layout_conversion_wrapHeight="84"
+        tools:layout_conversion_wrapWidth="156"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="186dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maths"
+        tools:layout_conversion_wrapHeight="84"
+        tools:layout_conversion_wrapWidth="189"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="236dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DBMS"
+        tools:layout_conversion_wrapHeight="84"
+        tools:layout_conversion_wrapWidth="184"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="282dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        tools:layout_conversion_wrapHeight="84"
+        tools:layout_conversion_wrapWidth="162"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="346dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20dp"/>
+
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        tools:layout_conversion_wrapHeight="84"
+        tools:layout_conversion_wrapWidth="202"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="378dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit and goto HomePage"
+        tools:layout_conversion_wrapHeight="126"
+        tools:layout_conversion_wrapWidth="602"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="611dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="@color/maroon5"/>
+
+
+</LinearLayout>

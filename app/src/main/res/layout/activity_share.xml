@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="40dp"
+    tools:context="com.example.campmanager.ShareActivity"
+    android:background="@drawable/ab2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonChoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choose"
+            android:layout_gravity="center"
+            android:background="@color/maroon5"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:id="@+id/filename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter filename"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+
+        <Button
+            android:id="@+id/buttonUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Upload"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@color/maroon5"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#ffffff"/>
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@color/maroon5"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#ffffff"/>
+
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayout" />
+
+
+</RelativeLayout>
